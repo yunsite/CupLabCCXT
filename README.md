@@ -6,9 +6,25 @@
 
 https://api.dobitrade.com/#api_block
 
+## Javascipt Version
+
+* [Source Code](js/CupLab_Dobi/);
+* CupLab_Dobi.js dependent library: 
+  * `jquery`;
+  * [jsSHA](https://github.com/Caligatio/jsSHA);
+
+## Node.js Version
+
+* [Source Code](nodejs2browserify/);
+* [CupLab.Dobi.browser.js](js/CupLab.Dobi.browser.js):
+  * support `jquery`;
+  * support `underscore`;
+  * support `crypto`;
+  * support `CupLab_Dobi`;
+
 ## 使用方法
 
-```
+```Javascript
 cupLab_Dobi = new CupLab_Dobi("your accessKey", "your secret");
 console.log(CupLab_Dobi.markets());
 console.log(CupLab_Dobi.myInfo());
