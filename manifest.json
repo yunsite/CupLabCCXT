@@ -1,14 +1,14 @@
 {
     "manifest_version": 2,
-    "name": "Coinbene DCE",
-    "description": "Coinbene Digital Currency Exchange JavaScript API with Chrome Extension",
+    "name": "CupLab DCE",
+    "description": "CupLab Digital Currency Exchange JavaScript API with Chrome Extension",
     "version": "0.0.1",
 	"background": {
         "scripts": ["js/background.js"]
 	},
     "browser_action": {
         "default_icon": "images/icon.png",
-        "default_title": "Coinbene DCE"
+        "default_title": "CupLab DCE"
     },
     "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
     "permissions": [       
