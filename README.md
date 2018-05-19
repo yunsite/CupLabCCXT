@@ -16,6 +16,7 @@
   * support `crypto`;
   * support `Dobi`;
   * support `Coinbene`;
+  * support `ccxt`;
 * Coinbene:
   * [Source Code](nodejs2browserify/Coinbene);
 * Dobi:
