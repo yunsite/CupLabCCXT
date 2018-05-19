@@ -4,36 +4,24 @@
 
 ## 参考文档
 
-https://api.dobitrade.com/#api_block
-
-## Javascipt Version
-
-* [Source Code](js/CupLab_Dobi/);
-* CupLab_Dobi.js dependent library: 
-  * `jquery`;
-  * [jsSHA](https://github.com/Caligatio/jsSHA);
+* https://github.com/ccxt/ccxt
+* [Dobi](https://api.dobitrade.com/#api_block)
+* [Coinbene](https://github.com/Coinbene/API-Documents-CHN/wiki/0.0.0-Coinbene-API%E6%96%87%E6%A1%A3)
 
 ## Node.js Version
 
-* [Source Code](nodejs2browserify/);
-* [CupLab.Dobi.browser.js](js/CupLab.Dobi.browser.js):
+* [CupLab.browser.js](js/CupLab.browser.js):
   * support `jquery`;
   * support `underscore`;
   * support `crypto`;
-  * support `CupLab_Dobi`;
+  * support `Dobi`;
+  * support `Coinbene`;
+* Coinbene:
+  * [Source Code](nodejs2browserify/Coinbene);
+* Dobi:
+  * [Source Code](nodejs2browserify/Dobi);
+
 
 ## 使用方法
 
-```Javascript
-cupLab_Dobi = new CupLab_Dobi("your accessKey", "your secret");
-console.log(CupLab_Dobi.markets());
-console.log(CupLab_Dobi.myInfo());
-console.log(CupLab_Dobi.myOrders("mcc_btc"));
-console.log(CupLab_Dobi.quote("mcc_btc"));
-console.log(CupLab_Dobi.rules("mcc_btc"));
-console.log(CupLab_Dobi.order("mcc_btc", "buy", "0.032", "0.02"));
-console.log(CupLab_Dobi.order("mcc_btc", "sell", "0.032", "0.02"));
-console.log(CupLab_Dobi.order("mcc_btc", "buy", "0.032", "50"));
-console.log(CupLab_Dobi.order("mcc_btc", "sell", "0.032", "50"));
-console.log(CupLab_Dobi.cancel("mcc_btc", "1649"));
-```
+* [main.js](js/main.js)

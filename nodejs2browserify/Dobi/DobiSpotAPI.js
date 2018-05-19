@@ -1,4 +1,4 @@
-const HttpMDUtil = require('./HttpMDUtil');
+const DobiHttpMDUtil = require('./DobiHttpMDUtil');
 
 module.exports = class DobiSpotAPI {
 
@@ -6,7 +6,7 @@ module.exports = class DobiSpotAPI {
         this.url = url;
         this.accessKey = accessKey;
         this.secret = secret;
-        this.httpMDUtil = new HttpMDUtil(accessKey, secret);
+        this.httpMDUtil = new DobiHttpMDUtil(accessKey, secret);
     }
 
     rules(market = "", success, error) {
