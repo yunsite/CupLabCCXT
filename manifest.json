@@ -1,6 +1,6 @@
 {
     "manifest_version": 2,
-    "name": "CupLab DCE",
+    "name": "CupLab CCXT",
     "description": "CupLab Digital Currency Exchange JavaScript API with Chrome Extension",
     "version": "0.0.1",
 	"background": {
@@ -8,7 +8,7 @@
 	},
     "browser_action": {
         "default_icon": "images/icon.png",
-        "default_title": "CupLab DCE"
+        "default_title": "CupLab CCXT"
     },
     "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
     "permissions": [       
@@ -18,7 +18,8 @@
         "browsingData",
         "storage",
         "unlimitedStorage",
-        "https://api.dobitrade.com/*"
+        "https://*",
+        "https://*/*"
     ],
     "icons" : {
         "128": "images/icon.png"

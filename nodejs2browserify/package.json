@@ -1,12 +1,12 @@
 {
-	"name": "CupLab_Dobi",
+	"name": "CupLabCCXT",
 	"version": "0.0.1",
 	"author": "zengjf",
-	"description": "CupLab Dobi Trade",
+	"description": "CupLab CCXT Trade",
 	"keywords":["node.js","javascript"],
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/CupLab/Dobitrade"
+		"url": "https://github.com/CupLab/CupLabCCXT"
 	},
 	"scripts": {
 		"start": "make"
