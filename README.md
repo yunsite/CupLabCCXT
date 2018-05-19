@@ -8,6 +8,11 @@
 * [Dobi](https://api.dobitrade.com/#api_block)
 * [Coinbene](https://github.com/Coinbene/API-Documents-CHN/wiki/0.0.0-Coinbene-API%E6%96%87%E6%A1%A3)
 
+## Pull Submodule
+
+* `git submodule init`
+* `git submodule update`
+
 ## Node.js Version
 
 * [CupLab.browser.js](js/CupLab.browser.js):
@@ -16,7 +21,7 @@
   * support `crypto`;
   * support `Dobi`;
   * support `Coinbene`;
-  * support `ccxt`;
+  * support `ccxt`: https://github.com/ccxt/ccxt;
 * Coinbene:
   * [Source Code](nodejs2browserify/Coinbene);
 * Dobi:
